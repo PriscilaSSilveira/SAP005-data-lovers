@@ -81,16 +81,11 @@ label[for="btn-menu"] {
   display: flex;
 }
 
-#rickAndMorty {
-  background-image: url("./data/rickandmorty/images/stars.gif");
-}
-
-#cards {
+#rickAndMorty, #curiosity, #status, #desenvolvedoras  {
   background-image: url("./data/rickandmorty/images/stars.gif");
 }
 
 #curiosity {
-  background-image: url("./data/rickandmorty/images/stars.gif");
   color: #fff;
   text-align: center;
   flex-wrap: wrap;
@@ -98,16 +93,8 @@ label[for="btn-menu"] {
   font-family: "Lacquer", sans-serif;
 }
 
-#status {
-  background-image: url("./data/rickandmorty/images/stars.gif");
-}
-
-#desenvolvedoras {
-  background-image: url("./data/rickandmorty/images/stars.gif");
-}
 
 #teste {
-
   margin-top: 150px;
 }
 
