@@ -293,6 +293,7 @@ td {
   justify-content: space-around;
   flex-wrap: nowrap;
   place-items: center;
+  cursor: pointer;
 }
 
 .frontContainer {
@@ -498,7 +499,7 @@ td {
   }
 }
 
-@media screen and (min-width: 420px max-width:600px) {
+@media screen and (min-width: 420px), (max-width: 600px) {
   main {
     max-width: 1000px;
   }

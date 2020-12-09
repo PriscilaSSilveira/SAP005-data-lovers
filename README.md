@@ -91,6 +91,8 @@ Os critérios considerados para que tenha terminado este projeto são:
 Durante o trabalho foi feito um protótipo.
 ![ ](./src/data/rickandmorty/images/prototipo.jpeg)
 
+![ ](./src/data/rickandmorty/images/prototipo.jpeg)
+
 ***
 
 ##  Checklist
