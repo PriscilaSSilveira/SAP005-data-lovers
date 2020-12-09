@@ -82,7 +82,7 @@ label[for="btn-menu"] {
 }
 
 #rickAndMorty,#cards, #curiosity, #status, #desenvolvedoras  {
-  background-image: url("./data/rickandmorty/images/stars.gif");
+  background-image:url("./data/rickandmorty/images/stars.gif");
 }
 
 #curiosity {
