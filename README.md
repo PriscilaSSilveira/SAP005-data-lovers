@@ -92,6 +92,8 @@ Durante o trabalho foi feito um protótipo de como o projeto ia ficar, para aces
 protótipo click
 * [aqui](https://drive.google.com/file/d/1GWEvpNgV7Otc401Aqnql4umOmer1RPDQ/view?ts=5faec699)
 
+![ ](./src/data/rickandmorty/images/prototipo.jpeg)
+
 ***
 
 ##  Checklist
