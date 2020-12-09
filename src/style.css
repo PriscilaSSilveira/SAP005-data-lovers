@@ -106,9 +106,9 @@ label[for="btn-menu"] {
   background-image: url("./data/rickandmorty/images/stars.gif");
 }
 
-form #teste {
-  display: flex;
-  flex-direction: row;
+#teste {
+
+  margin-top: 150px;
 }
 
 .inputBtn {
@@ -199,7 +199,7 @@ form #teste {
 }
 
 #grafico {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 table {
@@ -400,7 +400,7 @@ td {
 }
 
 .contagem {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 @media screen and (max-width: 1024px) {
