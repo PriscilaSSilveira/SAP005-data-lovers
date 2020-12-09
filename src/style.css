@@ -81,8 +81,8 @@ label[for="btn-menu"] {
   display: flex;
 }
 
-#rickAndMorty, #curiosity, #status, #desenvolvedoras  {
-  background-image: url("./data/rickandmorty/images/stars.gif");
+#rickAndMorty,#cards, #curiosity, #status, #desenvolvedoras  {
+  background-image:url("./data/rickandmorty/images/stars.gif");
 }
 
 #curiosity {
@@ -91,7 +91,7 @@ label[for="btn-menu"] {
   flex-wrap: wrap;
   padding-left: 100px;
   font-family: "Lacquer", sans-serif;
-}
+} 
 
 #teste {
   margin-top: 150px;
