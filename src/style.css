@@ -46,14 +46,14 @@ label[for="btn-menu"] {
 
 .links {
   width: 100%;
-  height: 8%;
+  height: 100px;
   position: absolute;
   display: flex;
 }
 
-.links label {
-  padding: 10px 0;
-  flex-grow: 1;
+label {
+  padding: 30px 0;
+  flex-grow: 3;
   cursor: pointer;
   text-align: center;
   font-family: "Lacquer", sans-serif;
@@ -81,8 +81,8 @@ label[for="btn-menu"] {
   display: flex;
 }
 
-#rickAndMorty,#cards, #curiosity, #status, #desenvolvedoras  {
-  background-image:url("./data/rickandmorty/images/stars.gif");
+#rickAndMorty, #cards, #curiosity, #status, #desenvolvedoras  {
+  background-image: url("./data/rickandmorty/images/stars.gif");
 }
 
 #curiosity {
@@ -91,14 +91,17 @@ label[for="btn-menu"] {
   flex-wrap: wrap;
   padding-left: 100px;
   font-family: "Lacquer", sans-serif;
+  font-size: 40px;
+  
 } 
 
 #teste {
-  margin-top: 150px;
+  margin-top: -120px;
 }
 
 .inputBtn {
-  width: 25vw;
+  padding-top: 300px;
+  width: 600px;
 }
 
 #texto {
@@ -108,8 +111,8 @@ label[for="btn-menu"] {
   cursor: pointer;
   margin: 5px 0;
   display: inline-block;
-  height: 40px;
-  width: 20vw;
+  height: 30px;
+  width: 400px;
   font-size: 75%;
   border-width: 2px;
   border-radius: 6px 0px 0px 6px;
@@ -120,7 +123,8 @@ label[for="btn-menu"] {
 }
 
 .threeBtn {
-  width: 30rem;
+  width: 300px;
+
 }
 
 #reset, #oBtn, #aBtn {
@@ -191,8 +195,8 @@ label[for="btn-menu"] {
 table {
   background-color: #ffffffb2;
   text-align: center;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
 }
 
 table .top {
@@ -211,8 +215,8 @@ td {
 }
 
 .pri img {
-  width: 410px;
-  height: 420px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
 }
 
@@ -227,8 +231,8 @@ td {
 }
 
 .ana img {
-  width: 410px;
-  height: 420px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
 }
 
@@ -254,8 +258,10 @@ td {
   box-shadow: 0 16px 16px 0 rgba(255, 255, 255, 0.801);
 }
 
-.img-logo {
-  width: 100%;
+.logos {
+  width: 70%;
+  padding-left: 300px;
+  padding-top: 170px;
   display: flex;
   justify-content: center;
 }
@@ -285,8 +291,8 @@ td {
 .frontContainer {
   box-shadow: 8px 8px 8px 8px rgba(242, 4, 250, 0.438);
   border-radius: 10px;
-  width: 300px;
-  height: 410px;
+  width: 200px;
+  height: 310px;
   text-align: center;
   background: white;
   color: rgb(0, 0, 0);
@@ -297,14 +303,18 @@ td {
 }
 
 .name {
-  font-size: 35px;
+  font-size: 15px;
 }
 
+.img-card {
+  width: 200px;
+  height: 250px;
+}
 .backCard div {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.959);
   border-radius: 10px;
-  width: 300px;
-  height: 390px;
+  width: 200px;
+  height: 250px;
   text-align: left;
   background: linear-gradient( rgba(72, 255, 0, 0.925), rgba(247, 0, 255, 0.945));
   color: rgb(0, 0, 0);
@@ -318,21 +328,24 @@ td {
 }
 
 .backCard h4 {
-  font-size: 25px;
+  font-size: 15px;
   text-align: justify;
   margin-left: 10px;
 }
 
 .container {
-  margin-top: 100px;
+
   display: flex;
   justify-content: center;
+  width: 1160px;
 }
+
 
 .card .flip {
   transition: transform 0.5s;
   transform-style: preserve-3d;
 }
+
 
 .card:active .flip {
   transform: rotateX(180deg);
@@ -348,30 +361,20 @@ td {
 }
 
 .curiosity {
-  font-size: 6rem;
   background-color: rgba(0, 0, 0, 0.705);
-  padding: 40px;
+  padding: 20px;
+  font-size: 50px;
 }
 
 #curiosity {
   padding: 150px;
   overflow-y: scroll;
+  font-size:30px;
 }
 
 .li {
-  font-size: 3.8rem;
+  font-size: 30px;
   font-family: "Luckiest Guy", cursive;
-}
-
-#info {
-  margin-bottom: 5px;
-  background-color: #ffffffcb;
-  width: 20vw;
-  text-align: center;
-  font-family: "Lacquer", sans-serif;
-  font-weight: bold;
-  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
 }
 
 .li {
@@ -462,7 +465,7 @@ td {
   }
   .curiosity {
     width: 100%;
-    font-size: 4rem;
+    font-size: 30px;
     margin-top: -30px;
     display: flex;
   }
