@@ -347,9 +347,6 @@ td {
 }
 
 
-.card:active .flip {
-  transform: rotateX(180deg);
-}
 
 .front-card, .back-card {
   position: absolute;
