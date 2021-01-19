@@ -14,6 +14,7 @@ document.getElementById("btn").addEventListener("click", (event) => {
 });
 
 function templateCard(allData) {
+    for (let personage of allData {
     let data = allData.map(personage => `<div class="frontContainer">
     <img src=${personage.image} alt="Avatar" class="img-card" /> 
 <br> <b class="name">${personage.name}  
@@ -28,7 +29,7 @@ function templateCard(allData) {
     document.getElementById("backCard").innerHTML = backData;
 
     return data
-}
+}}
 const mappedCards = document.getElementById("frontCard")
 mappedCards.innerHTML = templateCard(filter);
 
