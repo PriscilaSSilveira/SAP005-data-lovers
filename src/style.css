@@ -49,6 +49,7 @@ label[for="btn-menu"] {
   height: 100px;
   position: absolute;
   display: flex;
+  cursor:pointer;
 }
 
 label {
