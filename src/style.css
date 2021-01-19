@@ -275,7 +275,7 @@ td {
 .card {
   display: grid;
   overflow-x: auto;
-  height: 500px;
+  height: 400px;
   width: 1700px;
   perspective: 1000;
 }
