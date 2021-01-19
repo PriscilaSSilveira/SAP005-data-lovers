@@ -346,6 +346,9 @@ td {
   transform-style: preserve-3d;
 }
 
+/*.card:active .flip {
+  transform: rotateX(180deg);
+}*/
 
 
 .front-card, .back-card {
