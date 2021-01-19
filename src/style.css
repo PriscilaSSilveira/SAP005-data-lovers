@@ -68,10 +68,16 @@ label {
   background-color: rgba(242, 4, 250, 0.438);
   height: auto;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
+.links label{
+  cursor: pointer;
+}
+
 
 .scroll input {
   display: none;
+  cursor:pointer;
 }
 
 .bloco {
